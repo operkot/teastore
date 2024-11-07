@@ -177,6 +177,10 @@ body {
 }
 
 /* =============== Page Loader =============== */
+.loading {
+	overflow: hidden;
+}
+
 .loading::before,
 .loading::after {
 	content: '';
