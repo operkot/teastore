@@ -279,14 +279,13 @@ body {
 
 /* =============== #COLUMNS =============== */
 .columns {
-	width: var(--grid-width);
-	max-width: var(--grid-max-width);
 	position: relative;
-	padding: 100px 0;
 	display: grid;
+	grid-template-columns: repeat(var(--grid-columns),1fr);
 	place-items: center;
-    grid-template-columns: repeat(var(--grid-columns),1fr);
-    gap: var(--grid-gap);
+	gap: var(--grid-gap);
+	width: var(--grid-width);
+	padding-block: 100px;
 }
 
 .column {
